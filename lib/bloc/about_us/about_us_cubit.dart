@@ -17,7 +17,6 @@ class AboutUsCubit extends Cubit<AboutUsState> {
       emit(AboutUsSuccess(aboutUs));
     } catch (e) {
       emit(AboutUsFailed('$e'));
-      debugPrint('Hello');
     }
   }
 }
